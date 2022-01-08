@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(171, 133, 206);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    color: white;
+    background-color: darkgray;
+}
+
+h2{
+    color: red;
+
+}
+
+p{
+    text-align: justify;
+    color: white;
+}

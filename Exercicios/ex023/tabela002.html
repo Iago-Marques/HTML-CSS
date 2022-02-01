@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+
+    <h1>População dos Países</h1>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 650px;
+            border-collapse:collapse;
+        }
+
+        td, th{
+            border: solid 1px black;
+            padding: 10px;
+        }
+
+        th{
+            background-color: gray;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        td.data{
+            text-align: center;
+        }
+
+        
+
+    </style>
+
 </head>
 <body>
     
@@ -20,25 +54,69 @@
                 TR, TD, TH
     -->
 
-    <table>
-        <thead>
-            <tr>
-                <th>Estado</th>
-                <th>População</th>
+<!--INICIO DE TABELA-->
+   <table>
+       <thead> <!--CABEÇALHO-->
+            <th>Posição</th>
+            <th>Pais</th>
+            <th>População</th>
+            <th>Data</th>
+       </thead>
 
+       <tbody> <!--CORPO-->
+            <tr> <!--China-->
+                <td>1</td>
+                <td>China</td>
+                <td class="num">1 411 780 000</td>
+                <td class="data">2021</td>
             </tr>
-        </thead>
 
-        <tbody>
-            <td>São Paulo</td>
-            <td>45.919.049</td>
-        </tbody>
+            <tr> <!--Índia-->
+                <td>2</td>
+                <td>Índia</td>
+                <td class="num">1 380 004 385</td>
+                <td class="data"> 2020</td>
+            </tr>
 
-        <tfoot>
+            <tr> <!--Estados Unidos-->
+                <td>3</td>
+                <td>Estados Unidos</td>
+                <td class="num">331 449 281</td>
+                <td class="data"> 2020</td>
+            </tr>
 
-        </tfoot>
+            <tr> <!--Indonésia-->
+                <td>4</td>
+                <td>Indonésia</td>
+                <td class="num">273 523 615</td>
+                <td class="data">2020</td>
+            </tr>
 
-    </table>
+            <tr> <!--Paquistão-->
+                <td>5</td>
+                <td>Paquistão</td>
+                <td class="num">220 892 340</td>
+                <td class="data"> 2020</td>
+            </tr>
+
+            <tr> <!--Brasil-->
+                <td>6</td>
+                <td>Brasil</td>
+                <td class="num"> 213 317 639</td>
+                <td class="data">2020</td>
+            </tr>
+       </tbody>
+            
+       <tfoot> <!--RODA-PÉ-->
+        <tr>
+            <th>Total de Habitantes</th>
+                
+                <td class="1"></td>
+                <td class="2"></td>
+            <td class="num">15645128</td>
+        </tr>
+       </tfoot>
+   </table>
 
 </body>
 </html>
